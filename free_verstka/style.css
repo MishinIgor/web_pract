@@ -1,0 +1,8 @@
+.my_photo{
+    display: grid;
+    background-color: aqua;
+    width: 100%;
+    height: auto;
+    min-height: 280px;
+    justify-content: right;
+}
