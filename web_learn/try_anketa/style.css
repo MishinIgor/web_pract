@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    background-color: aqua;
+}
+
+.main__info {
+    display: flex;
+    background-color: brown;
+    width: 1080px;
+    height: 1200px;
+    align-items: right;
+    justify-content: right;
+}
+
+.photo__ank {
+    background-color: wheat;
+    width: 350px;
+    height: 500px;
+}
