@@ -1,0 +1,156 @@
+a {
+    text-decoration: none;
+}
+body {
+    display: flex;
+    width: 1440px;
+    height: 2504px;
+    justify-content: center;
+    text-decoration: none;
+}
+.container {
+    margin-top: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Навигация */
+
+nav {
+    align-items: center;
+    display: inline-flex;
+    padding: 0;
+    width: 1167px;
+    height: 84px;
+    margin-top: 0;
+}
+
+.nav__logo {
+    display: inline-flex;
+    width: 604px;
+    height: 58px;
+    justify-content: left;
+
+    gap: 10px;
+}
+
+.nav__logo p {
+    
+    letter-spacing: 20.5%;
+}
+
+.lc {
+    font-weight: 700;
+    font-size: 25px;
+    color: #002265;
+}
+
+.rc {
+    font-weight: 400;
+    font-size: 25px;
+    color: #14279B;
+}
+
+
+.nav__menu {
+    display: flex;
+    gap: 45px;
+
+    width: 563px;
+    height: 58px;
+
+    align-items: center;
+    justify-content: right;
+
+    font-weight: 400;
+    font-size: 25px;
+    color: #212121;
+}
+
+.nav__button {
+    display: flex;
+    background-color: #608AF5;
+    color: white;
+    width: 174px;
+    height: 58px;
+    padding: 10 18 10 18;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+/* MAIN */
+
+.main {
+    display: flex;
+    align-items: center;
+    width: 1167px;
+    height: 467px;
+    margin-top: 160px;
+    gap: 86px;
+}
+
+.main__info {
+    display: flex;
+    width: 580px;
+    height: 358px;
+    flex-wrap: wrap;
+
+    color: black;
+}
+
+.main__photo {
+    width: 501px;
+    height: 467px;
+}
+
+
+/* Увлечения */
+.hobbies_title {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+
+
+    margin-top: 123px;
+    margin-bottom: 125px;
+}
+
+.hobbies {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.hbox {
+    display: grid;
+    flex-wrap: wrap;
+
+    width: 347px;
+    height: 280px;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+.hbox img {
+    width: 225px;
+    height: 159px;
+}
+
+.hobby_text {
+    font-weight: 700;
+}
+
+.hlt {
+    color: #002265;
+    margin-right: 20px;
+}
+
+.rlt {
+    color: #14279B;
+} 
+
+
+/* Мои увлечения */
+
+
