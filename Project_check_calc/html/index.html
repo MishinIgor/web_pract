@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Project_check_calc/css/style.css">
+    <title>Проверка способностей вычислять</title>
+</head>
+<body>
+    <div class="box calc_container">
+        <div class="header_panel">
+            <label for="primer"></label>
+            <input type="number" class="cin">
+        </div>
+        
+    <div class="number_panel">
+        <div class="no_ok">
+            <input class="nb" type="button" value="7">
+            <input class="nb" type="button" value="8">
+            <input class="nb" type="button" value="9">
+            <input class="nb" type="button" value="4">
+            <input class="nb" type="button" value="5">
+            <input class="nb" type="button" value="6">
+            <input class="nb" type="button" value="1">
+            <input class="nb" type="button" value="2">
+            <input class="nb" type="button" value="3">
+            <input class="nb del" type="button" value="Del">
+            <input class="nb" type="button" value="0">
+            <input class="nb clear" type="button" value="Clear">
+        </div>
+        <div class="w_ok"><input class="nb ok" type="button" value="OK"></div>
+    </div>
+    </div>
+
+    <div class="box rezult_container">
+    <div class="options">
+        <label for="a">a=</label>
+        <input type="number" id = "razr_a" value = 1>
+        <label for="b">b=</label>
+        <input type="number" id = "razr_b" value="1">
+    </div>
+    <div class="rezult_text">
+        <textarea disabled name="rezult" id="rezult"></textarea>
+    </div>
+    </div>
+    <script src="/Project_check_calc/js/check_calck.js"></script>
+</body>
+</html>
